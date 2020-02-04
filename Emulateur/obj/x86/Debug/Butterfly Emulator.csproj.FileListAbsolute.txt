@@ -1,0 +1,8 @@
+C:\Users\Wibbo\Desktop\WibboEmulateur\Build\ButterflyEmulator.exe.config
+C:\Users\Wibbo\Desktop\WibboEmulateur\Build\ButterflyEmulator.exe
+C:\Users\Wibbo\Desktop\WibboEmulateur\Build\ButterflyEmulator.pdb
+C:\Users\Wibbo\Desktop\WibboEmulateur\Emulateur\obj\x86\Debug\Butterfly Emulator.csprojAssemblyReference.cache
+C:\Users\Wibbo\Desktop\WibboEmulateur\Emulateur\obj\x86\Debug\Butterfly Emulator.csproj.CoreCompileInputs.cache
+C:\Users\Wibbo\Desktop\WibboEmulateur\Emulateur\obj\x86\Debug\Butterfly Emulator.csproj.CopyComplete
+C:\Users\Wibbo\Desktop\WibboEmulateur\Emulateur\obj\x86\Debug\ButterflyEmulator.exe
+C:\Users\Wibbo\Desktop\WibboEmulateur\Emulateur\obj\x86\Debug\ButterflyEmulator.pdb

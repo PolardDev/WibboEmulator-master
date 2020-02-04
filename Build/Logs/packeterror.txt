@@ -1,0 +1,13 @@
+
+Error in packet [1314] BODY: [0]test[0][0][0][0][0][0][0]: 
+13-06-19 05:05:12 : System.IndexOutOfRangeException: L'index se trouve en dehors des limites du tableau.
+   ? Butterfly.HabboHotel.Rooms.Wired.WiredHandlers.Effects.SuperWired.RpCommand(String Cmd, String Value, Room Room, RoomUser User, Item TriggerItem) dans C:\Users\Wibbo\Desktop\WibboEmulateur\Emulateur\HabboHotel\Rooms\Wired\WiredHandlers\Effects\SuperWired.cs:ligne 236
+   ? Butterfly.HabboHotel.Rooms.Wired.WiredHandlers.Effects.SuperWired.HandleEffect(RoomUser User, Item TriggerItem) dans C:\Users\Wibbo\Desktop\WibboEmulateur\Emulateur\HabboHotel\Rooms\Wired\WiredHandlers\Effects\SuperWired.cs:ligne 183
+   ? Butterfly.HabboHotel.Rooms.Wired.WiredHandlers.Effects.SuperWired.Handle(RoomUser user, Item TriggerItem) dans C:\Users\Wibbo\Desktop\WibboEmulateur\Emulateur\HabboHotel\Rooms\Wired\WiredHandlers\Effects\SuperWired.cs:ligne 162
+   ? Butterfly.HabboHotel.Rooms.Wired.WiredHandler.ExecutePile(Point coordinate, RoomUser user, Item item) dans C:\Users\Wibbo\Desktop\WibboEmulateur\Emulateur\HabboHotel\Rooms\Wired\WiredHandler.cs:ligne 265
+   ? Butterfly.HabboHotel.Rooms.Wired.WiredHandlers.Triggers.UserSays.roomUserManager_OnUserSays(Object sender, UserSaysArgs e, Boolean& messageHandled) dans C:\Users\Wibbo\Desktop\WibboEmulateur\Emulateur\HabboHotel\Rooms\Wired\WiredHandlers\Triggers\UserSays.cs:ligne 37
+   ? Butterfly.HabboHotel.Rooms.Room.AllowsShous(RoomUser user, String message) dans C:\Users\Wibbo\Desktop\WibboEmulateur\Emulateur\HabboHotel\Rooms\Room.cs:ligne 254
+   ? Butterfly.Communication.Packets.Incoming.Structure.ChatEvent.Parse(GameClient Session, ClientPacket Packet) dans C:\Users\Wibbo\Desktop\WibboEmulateur\Emulateur\Communication\Packets\Incoming\Rooms\Chat\ChatEvent.cs:ligne 155
+   ? Butterfly.Communication.Packets.PacketManager.TryExecutePacket(GameClient Session, ClientPacket Packet) dans C:\Users\Wibbo\Desktop\WibboEmulateur\Emulateur\Communication\Packets\PacketManager.cs:ligne 79
+   ? Butterfly.HabboHotel.GameClients.GameClient.parser_onNewPacket(ClientPacket Message) dans C:\Users\Wibbo\Desktop\WibboEmulateur\Emulateur\HabboHotel\GameClients\GameClient.cs:ligne 161
+
