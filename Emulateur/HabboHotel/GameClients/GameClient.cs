@@ -25,7 +25,7 @@ namespace Butterfly.HabboHotel.GameClients
         public string MachineId;
         public Language Langue;
 
-        public ARC4 RC4Client = null;
+        //public ARC4 RC4Client = null;
 
         public int ConnectionID { get; }
 
@@ -314,7 +314,7 @@ namespace Butterfly.HabboHotel.GameClients
             this.Habbo = (Habbo)null;
             this.Connection = (ConnectionInformation)null;
             this.packetParser = null;
-            this.RC4Client = null;
+            //this.RC4Client = null;
         }
 
         public void Disconnect()

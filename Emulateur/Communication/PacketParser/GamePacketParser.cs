@@ -41,7 +41,7 @@ namespace Butterfly.Net
                     }
                 }
 
-                if (currentClient != null && currentClient.RC4Client != null && !deciphered)
+                if (currentClient != null && !deciphered)
                 {
                     //currentClient.RC4Client.Decrypt(ref Data);
                 }
